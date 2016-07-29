@@ -1,0 +1,456 @@
+<!DOCTYPE html PUBLIC>
+<html>
+<head>
+<title>Sensitive Robotics Laboratory</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="labstyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<!--
+    RESEARCH    
+-->
+
+<body>
+
+    <!-- Start of StatCounter Code -->
+    <script type="text/javascript">
+        var sc_project=6697533; 
+        var sc_invisible=1; 
+        var sc_security="559ce85c"; 
+    </script>
+
+    <script type="text/javascript" src="http://www.statcounter.com/counter/counter.js">
+    </script>
+    
+    <noscript>
+        <div class="statcounter">
+            <a title="joomla site stats" href="http://statcounter.com/joomla/" target="_blank">
+                <img class="statcounter" src="http://c.statcounter.com/6697533/0/559ce85c/1/"
+                alt="joomla site stats" >
+            </a>
+        </div>
+    </noscript>
+    
+    <!--End of StatCounter Code -->
+    
+    
+        <div id="CommonBox">
+            <div id="titlelab">
+                <p>Sensitive Robotics Laboratory</p>
+            </div>
+            <div id="navigation">
+                <ul>
+            
+                    <li><a href="http://www.wpi.edu/~etorresj/SRLab">HOME</a> </li>
+                    <li><a href="http://www.wpi.edu/~etorresj/SRLab/research.html">RESEARCH</a></li>
+                     
+                    <li><a href="http://www.wpi.edu/~etorresj/SRLab/news.html">NEWS</a></li>  
+                    
+                    <li> <a href="http://www.wpi.edu/~etorresj/publications.html">PUBLICATIONS</a> </li>
+                    <!--
+                    <a href="http://people.csail.mit.edu/etorresj/press.html">PRESS</a> 
+                    <a href="http://people.csail.mit.edu/etorresj/contact.html">CONTACT</a>
+                    <a href="http://people.csail.mit.edu/etorresj/faq.html">FAQ's</a>
+                    -->
+                    <li><a href="http://www.wpi.edu/~etorresj/members.html">MEMBERS</a> </li>
+                </ul>
+            </div>
+        </div>
+		
+		
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Robotic manipulation</h4>
+				<p>The robots perform manipulation tasks based on the contact information provided by the tactile sensors. 
+				The robot Obrero is capable of performing autonomous whole body grasps among other tasks. The robot Gobot
+				is capable of perfoming precision manipulation relaying in tactile feedback. The robot Tactico is capable 
+				of working in more cluttered environments. For details refer to the individual links.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/ObreroThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Robot Obrero<br>
+					Obrero is the first robot using the algoritms of Sensitive Manipulation. These algoritms enabled by the hardware and the tactile sensors. 
+					It has 6 DOF compliant arm and a 4 DOF compliant hand. The arm compliance is given by the series elastic actuators (SEAs). 
+					The hand has two levels of compliance. One given by the SEAs and one by the tactile sensors.</p>
+				</div>
+			</div>
+			
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/GobotThumb.jpg" alt="#" style="position: relative; top: 35px;"/>
+				</div>
+				<div class="ProjectDescription">
+					<p>Robot GoBot<br>
+					The next step to test for Sensitive Manipulation was precision manipulation. In this approach tactile feedback allows the robot to manipulate small
+					and slippery objects (GO stones). The position of robot's fingers are not controllable with high precision. Therefore, the task excecution depends
+					on tactile feedback. The approach was succesfully tested.</p>
+							
+				</div>
+			</div>
+			
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/TacticoThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Robot Tactile<br>
+					The succcesor of Obreo and Gobot. This robot was built to handle more complex tasks where the enviromnent is cluttered with objects. The robot arm and
+					and is covered by tactile sensors. The form factor is the one of an industrial arm. More details will be posted soon.</p>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Walking robots</h4>
+				<p>The problem of walking is very similar to manipulation where the contact with the floor provides information for taking the next step while maintaining contact. 
+				Most of the approaches to robotic walking focus mainly in balancing minimizing the effect of the feet. In some cases the feet are considered a point of contact.
+				This simplification was used in manipulation as well. In this approach, we use the contact information to develop robust walking algorithms.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/CaminanteThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Robot Caminante<br>
+					The Robot Caminante is the first platform to develop Sensitive Walking. The robot has 6 DOF on each leg. All the joints are driven by SEAs. 
+					The feet has an articulated toe and it is covered by tactile sensors. The algoritms take advantage of the contact information to make the robot walk reliably.
+				</div>
+			</div>
+		</div>
+	
+
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Active robotics vision</h4>
+				<p>Robotics vision has some additional challenges compared to computer vision. In general, the robotic platform and the camera moves and shakes, which makes the images no ideal
+				for computer vision algorithms. In this approach we embrace and promote motion to obtain information.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/HeadThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Robotic Head<br>
+					This robotic head was developed with cameras capable of controlling their zoom, focus, and orientation. In addition, the light intensity is controlled using shades.
+					The main idea behind this approach is taking advantage of the optical DOFs provided by the robotic head.
+					</p>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Flying robots</h4>
+				<p>
+				Flying can be described as manipulation the air. In this approach (Sensitive Flying) as in Sensitive Manipulation we feel the contact with the object to manipulate.
+				Consequently, we expect to be more "dexterous" at flying. We have taken the first steps for this approach building the robotic platform.
+				</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/FlyingModelThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Plumas<br>
+					This robot flies by feeling the air currents and adapting to the changes. We have implemented our first version. 
+					More information will be available after the patent process.</p>				
+				</div>
+			</div>
+		</div>
+
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Navigation in cluttered environments</h4>
+				
+				<p>There is a lot of work on how to navigate using GPS or similar position systems. In general robots can navigate in corridors or clear spaces such as roads. However, then the 
+				environment is cluttered, the robot usually gets stuck because an expected part of the robot has made contact with an obstacle. For instance, it is very likely that 
+				the robot Roomba will get stuck. In this research, address this problem using Sensitve Navigation, where the robot is aware of its body by using tactile feedback.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/NavegadorThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Navegante<br>
+					This robot prototype has its body covered by tactile sensors. It also has whiskers in its front to detect objects that are distant. The robot also has cameras in front.</p>				
+				</div>
+			</div>
+		</div>
+		
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Design and Study of Compliant Tactile Sensor</h4>
+				<p>The features needed to develop useful tactile sensors for robotics are not well understood. 
+				In this research we have studied the behavior of compliant tactile sensors that have cruccial characteristics for robotics.
+				These characteristics have been determined after a number of experiments in actual robots performing manipulation.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/FEASensorsThumb.jpg" alt="#" style="position: relative; top: 17px;"/>
+				</div>
+				<div class="ProjectDescription">
+					<p>Compliant Tactile Sensor study<br>
+					In this research we have investigated the characteristic of a compliant tactile sensor that was designed after experimenting with robots Obrero and GoBot.
+					A Finite Element Model has been created and validated to facilitate the design of tactile sensors. The tactile sensor is patented.
+					</p>				
+				</div>
+			</div>
+		</div>
+		
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Tactile Sensor Models</h4>
+				<p>Robots with tactile sensors are difficult to simulate using standard software. There are a number of challenges to implement this simulation. The task is even more complex
+				when the sensors are deformable. In this research we propose a tactile sensor model to implement the simulations.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/ModelThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Compliant tactile sensor: abstraction model<br>
+					In this research, we present an abstraction model for the sensor that is tested in a simulated manipulation environment.
+					This kind of simulation will enable us to develop algoritms for Sensitive Robotics faster.</p>
+					</p>				
+				</div>
+			</div>
+		</div>
+		
+		<div class="ResearchTopic">
+			<div class="ResearchDescription">
+				<h4 class="TitutloCentrado">Signal Processing for tactile feedback</h4>
+				<p>The information provided by large arrays of tactile sensors enable the robots to perform complex task. However, we are only starting to explore the richness of this information.
+				New techniques need to be developed to take advantage of these information. These algorithms will impact different areas of robotics that share similar data structures. 
+				In this research we have started to explore this area with data available from our own robots.</p>
+			</div>
+			<div class="Project">
+				<div class="ProjectThumb">
+					<img src="Fotos/Thumbs/SignalProcessingThumb.jpg" alt="#" />
+				</div>
+				<div class="ProjectDescription">
+					<p>Tactile data processing<br>
+					A number of different manchine learning techniques are being used to extract the information available from tactile feedback.</p>				
+				</div>
+			</div>
+		</div>
+		
+		<!--
+		===
+		
+        
+        <div id="content">
+            <div id="HomeText">
+			
+				<h4>Robotic manipulation</h4>
+				<p>The robots perform manipulation tasks based on the contact information provided by the tactile sensors. 
+				The robot Obrero is capable of performing autonomous whole body grasps among other tasks. The robot Gobot
+				is capable of perfoming precision manipulation relaying in tactile feedback. The robot Tactico is capable 
+				of working in more cluttered environments. For details refer to the individual links.</p>
+				
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/ObreroThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Robot Obrero<br>
+							Obrero is the first robot using the algoritms of Sensitive Manipulation. These algoritms enabled by the hardware and the tactile sensors. 
+							It has 6 DOF compliant arm and a 4 DOF compliant hand. The arm compliance is given by the series elastic actuators (SEAs). 
+							The hand has two levels of compliance. One given by the SEAs and one by the tactile sensors.</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/GobotThumb.jpg" alt="#" />
+						</td>
+						
+						<td>
+							<p>Robot GoBot<br>
+							The next step to test for Sensitive Manipulation was precision manipulation. In this approach tactile feedback allows the robot to manipulate small
+							and slippery objects (GO stones). The position of robot's fingers are not controllable with high precision. Therefore, the task excecution depends
+							on tactile feedback. The approach was succesfully tested.</p>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/TacticoThumb.jpg" alt="#" />
+						</td>
+					
+						<td>
+							<p>Robot Tactile<br>
+							The succcesor of Obreo and Gobot. This robot was built to handle more complex tasks where the enviromnent is cluttered with objects. The robot arm and
+							and is covered by tactile sensors. The form factor is the one of an industrial arm. More details will be posted soon.</p>
+						</td>
+					</tr>
+					
+				</table>
+			
+			
+				<h4>Walking robots</h4>
+				<p>The problem of walking is very similar to manipulation where the contact with the floor provides information for taking the next step while maintaining contact. 
+				Most of the approaches to robotic walking focus mainly in balancing minimizing the effect of the feet. In some cases the feet are considered a point of contact.
+				This simplification was used in manipulation as well. In this approach, we use the contact information to develop robust walking algorithms.</p>
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/CaminanteThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Robot Caminante<br>
+							The Robot Caminante is the first platform to develop Sensitive Walking. The robot has 6 DOF on each leg. All the joints are driven by SEAs. 
+							The feet has an articulated toe and it is covered by tactile sensors. The algoritms take advantage of the contact information to make the robot walk reliably.
+							</p>
+						</td>
+					</tr>
+				</table>
+		
+		
+				<h4>Active robotics vision</h4>
+				<p>Robotics vision has some additional challenges compared to computer vision. In general, the robotic platform and the camera moves and shakes, which makes the images no ideal
+				for computer vision algorithms. In this approach we embrace and promote motion to obtain information.
+				</p>
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/HeadThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Robotic Head<br>
+							This robotic head was developed with cameras capable of controlling their zoom, focus, and orientation. In addition, the light intensity is controlled using shades.
+							The main idea behind this approach is taking advantage of the optical DOFs provided by the robotic head.
+							</p>
+						</td>
+					</tr>
+
+				</table>
+                   
+				<h4>Flying robots</h4>
+				<p>
+				Flying can be described as manipulation the air. In this approach (Sensitive Flying) as in Sensitive Manipulation we feel the contact with the object to manipulate.
+				Consequently, we expect to be more "dexterous" at flying. We have taken the first steps for this approach building the robotic platform.</p>
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/FlyingModelThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Plumas<br>
+							This robot flies by feeling the air currents and adapting to the changes. We have implemented our first version. More information will be available after the patent process.</p>
+						</td>
+					</tr>
+
+				</table>
+				
+				<h4>Navigation in cluttered environments</h4>
+				
+				<p>There is a lot of work on how to navigate using GPS or similar position systems. In general robots can navigate in corridors or clear spaces such as roads. However, then the 
+				environment is cluttered, the robot usually gets stuck because an expected part of the robot has made contact with an obstacle. For instance, it is very likely that 
+				the robot Roomba will get stuck. In this research, address this problem using Sensitve Navigation, where the robot is aware of its body by using tactile feedback.</p>
+				
+				
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/NavegadorThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Navegante<br>
+							This robot prototype has its body covered by tactile sensors. It also has whiskers in its front to detect objects that are distant. The robot also has cameras in front.</p>
+						</td>
+					</tr>
+
+				</table>
+				
+				
+				<h4>Design and Study of Compliant Tactile Sensor</h4>
+				<p>The features needed to develop useful tactile sensors for robotics are not well understood. 
+				In this research we have studied the behavior of compliant tactile sensors that have cruccial characteristics for robotics.
+				These characteristics have been determined after a number of experiments in actual robots performing manipulation.</p>
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/FEASensorsThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Compliant Tactile Sensor study<br>
+							In this research we have investigated the characteristic of a compliant tactile sensor that was designed after experimenting with robots Obrero and GoBot.
+							A Finite Element Model has been created and validated to facilitate the design of tactile sensors. The tactile sensor is patented.
+							</p>
+						</td>
+					</tr>
+
+				</table>
+				
+				<h4>Tactile Sensor Models</h4>
+				<p>Robots with tactile sensors are difficult to simulate using standard software. There are a number of challenges to implement this simulation. The task is even more complex
+				when the sensors are deformable. In this research we propose a tactile sensor model to implement the simulations.</p>
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/ModelThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Compliant tactile sensor: abstraction model<br>
+							In this research, we present an abstraction model for the sensor that is tested in a simulated manipulation environment.
+							This kind of simulation will enable us to develop algoritms for Sensitive Robotics faster.</p>
+						</td>
+					</tr>
+
+				</table>
+							
+				<h4>Signal Processing for tactile feedback</h4>
+				<p>The information provided by large arrays of tactile sensors enable the robots to perform complex task. However, we are only starting to explore the richness of this information.
+				New techniques need to be developed to take advantage of these information. These algorithms will impact different areas of robotics that share similar data structures. 
+				In this research we have started to explore this area with data available from our own robots.</p>
+				
+				<table border="0">
+					<tr>
+						<td>
+							<img src="Fotos/Thumbs/SignalProcessingThumb.jpg" alt="#" />
+						</td>
+						<td>
+							<p>Tactile data processing<br>
+							A number of different manchine learning techniques are being used to extract the information available from tactile feedback.</p>
+						</td>
+					</tr>
+
+				</table>
+									
+						
+                
+
+            </div>
+            
+            -->	
+            <!--
+			<div id="thumbnails">
+        
+				<ul class="thumbnails">
+					<li><img src="images/thumb1.jpg" alt="Jennifer Hewitt" /></li>
+					<li><img src="images/thumb2.jpg" alt="Jennifer Hewitt" /></li>
+					<li><img src="images/thumb3.jpg" alt="Jennifer Hewitt" /></li>
+				</ul>
+				
+			</div>
+			-->	
+			
+				
+		</div>
+	</div>
+	</div>
+
+        
+    
+    
+
+
+</body>
+</html>
